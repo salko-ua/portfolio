@@ -22,5 +22,5 @@ coverage
 .DS_Store
 
 tmp
-
+.svelte-kit/
 benchmarking/compare/.results
