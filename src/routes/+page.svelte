@@ -5,7 +5,7 @@ import Stats from '../components/stats.svelte';
 
 <div
   class="h-max min-h-screen w-screen bg-black
-    bg-[url(/background.jpg)] bg-top bg-no-repeat p-2 pt-5"
+    bg-[url(/background.jpg)] bg-top bg-no-repeat p-1 pt-5"
 >
   <div
     class="m-auto grid w-full grid-cols-1

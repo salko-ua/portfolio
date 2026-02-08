@@ -8,18 +8,17 @@ import ContactMe from '../components/contact_me.svelte';
   class="flex
         h-50 w-full
         flex-col justify-between
-        max-lg:h-35
-        max-lg:bg-black/15 max-lg:backdrop-blur-sm
-        p-4 font-sans text-white
+        max-lg:h-36
+        p-2 font-sans text-white
         lg:col-span-1"
 >
   <div
     class="flex items-start justify-between max-lg:justify-around gap-4
-          max-lg:order-2 lg:flex-col max-lg:p-2 max-lg:pl-4 max-lg:pr-4 max-lg:bg-black/15 max-lg:backdrop-blur-sm"
+          max-lg:order-2 lg:flex-col max-lg:p-2 max-lg:pl-4 max-lg:pr-4 max-lg:bg-black/40 max-lg:backdrop-blur-sm"
   >
     <div
       class="flex h-fit max-lg:h-full items-center gap-2 text-4xl
-            font-extralight tracking-tight"
+            font-extralight tracking-tight p-1 pr-4 pl-4"
     >
       <span class="font-mono text-3xl">Age</span>
       <span
@@ -33,7 +32,7 @@ import ContactMe from '../components/contact_me.svelte';
 
     <div
       class="flex h-fit items-center gap-3 rounded-sm
-            p-1 pr-4 pl-4 lg:bg-black/15 lg:w-full"
+            p-1 pr-4 pl-4 lg:bg-black/40 lg:w-full"
     >
       <img alt="100+" src={asset('/100+.png')} class="h-[56px]" />
       <div class="flex flex-col">
@@ -42,7 +41,7 @@ import ContactMe from '../components/contact_me.svelte';
       </div>
     </div>
   </div>
-  <div class="max-lg:mb-4 max-lg:order-1">
+  <div class=" max-lg:order-1">
     <ContactMe />
   </div>
 </div>

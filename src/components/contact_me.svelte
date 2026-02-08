@@ -1,8 +1,8 @@
 <button
-  class="w-fit bg-black/15
+  class="w-fit bg-black/40
             px-4 py-2 text-sm font-light text-gray-100
-            transition-colors hover:bg-white/10
             max-lg:w-full"
+  type="button"
 >
   Contact me
 </button>
