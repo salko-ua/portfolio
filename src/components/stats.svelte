@@ -10,7 +10,9 @@ import ContactMe from '../components/contact_me.svelte';
         flex-col justify-between
         max-lg:h-36
         p-2 font-sans text-white
-        lg:col-span-1"
+        lg:col-span-1
+        min-w-fit
+  "
 >
   <div
     class="flex items-start justify-between max-lg:justify-around gap-4
