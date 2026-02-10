@@ -4,22 +4,97 @@
 
 <div
   class="
-    h-100 p-2 w-full max-lg:order-1 col-span-1 bg-black/20 backdrop-blur-sm text-white
+    h-fit
+    w-full
+    lg:bg-black/40
+    col-span-1
+    max-lg:order-1
   "
 >
-  <div>
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-    non proident, sunt in culpa qui officia deserunt mollit anim id est
-    laborum.""Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-    cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-    est laborum."
+  <div
+    class="
+      grid
+      grid-cols-2
+      xs:grid-cols-3
+      sm:grid-cols-4
+      lg:grid-cols-1
+      lg:pt-4
+      lg:pb-4
+      gap-2
+      pl-2
+      pr-2
+      text-lg
+      text-shadow-lg
+      font-light
+      max-lg:justify-items-center
+    "
+  >
+    <!-- button1 -->
+    <div class="w-full text-white max-lg:bg-black/40 max-lg:p-2">
+      <a href="/projects" class="flex h-full items-center">
+        <span class="text-white mr-2 ml-2">Projects</span>
+        <span class="text-gray-400">53</span>
+      </a>
+    </div>
+    <div class="w-full text-white max-lg:bg-black/40 max-lg:p-2">
+      <a href="/artwork" class="flex h-full items-center">
+        <span class="text-white mr-2 ml-2">Artwork</span>
+        <span class="text-gray-400">4</span>
+      </a>
+    </div>
+    <div class="w-full text-white max-lg:bg-black/40 max-lg:p-2">
+      <a href="/mal" class="flex h-full items-center">
+        <span class="text-white mr-2 ml-2">MAL</span>
+        <span class="text-gray-400">13</span>
+      </a>
+    </div>
+    <div class="w-full text-white max-lg:bg-black/40 max-lg:p-2">
+      <a href="/languages" class="flex h-full items-center">
+        <span class="text-white mr-2 ml-2">Languages</span>
+        <span class="text-gray-400">4</span>
+      </a>
+    </div>
+    <div class="w-full text-white max-lg:bg-black/40 max-lg:p-2">
+      <a href="/template" class="flex h-full items-center">
+        <span class="text-white mr-2 ml-2">Template</span>
+        <span class="text-gray-400">1</span>
+      </a>
+    </div>
+    <div class="w-full text-white max-lg:bg-black/40 max-lg:p-2">
+      <a href="/template" class="flex h-full items-center">
+        <span class="text-white mr-2 ml-2">Template</span>
+        <span class="text-gray-400">1</span>
+      </a>
+    </div>
+    <div class="w-full text-white max-lg:bg-black/40 max-lg:p-2">
+      <a href="/template" class="flex h-full items-center">
+        <span class="text-white mr-2 ml-2">Template</span>
+        <span class="text-gray-400">1</span>
+      </a>
+    </div>
+    <div class="w-full text-white max-lg:bg-black/40 max-lg:p-2">
+      <a href="/template" class="flex h-full items-center">
+        <span class="text-white mr-2 ml-2">Template</span>
+        <span class="text-gray-400">1</span>
+      </a>
+    </div>
+    <div class="w-full text-white max-lg:bg-black/40 max-lg:p-2">
+      <a href="/template" class="flex h-full items-center">
+        <span class="text-white mr-2 ml-2">Template</span>
+        <span class="text-gray-400">1</span>
+      </a>
+    </div>
+    <div class="w-full text-white max-lg:bg-black/40 max-lg:p-2">
+      <a href="/template" class="flex h-full items-center">
+        <span class="text-white mr-2 ml-2">Template</span>
+        <span class="text-gray-400">1</span>
+      </a>
+    </div>
+    <div class="w-full text-white max-lg:bg-black/40 max-lg:p-2">
+      <a href="/template" class="flex h-full items-center">
+        <span class="text-white mr-2 ml-2">Template</span>
+        <span class="text-gray-400">1</span>
+      </a>
+    </div>
   </div>
 </div>

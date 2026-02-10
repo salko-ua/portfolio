@@ -7,7 +7,7 @@
     flex
     max-xs:h-fit
     h-50 w-full p-2
-    md:col-span-2
+    lg:col-span-2
   "
 >
   <!-- avatar -->
