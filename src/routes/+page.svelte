@@ -25,7 +25,7 @@ import SideMenu from '../components/side_menu.svelte';
         h-fit
         min-h-400
         w-full
-        bg-black/20
+        bg-black/40
         col-span-1
         lg:col-span-2
         max-lg:order-2
