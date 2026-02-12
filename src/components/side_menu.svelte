@@ -1,7 +1,3 @@
-<script>
-  import { asset } from "$app/paths";
-</script>
-
 <div
   class="
     h-fit
@@ -23,7 +19,7 @@
       gap-2
       pl-2
       pr-2
-      text-lg
+      text-sm
       text-shadow-lg
       font-light
       text-white/90
@@ -41,7 +37,7 @@
         xs:col-span-3
         sm:col-span-4
         lg:col-span-1
-        text-xl
+        text-lg
       "
     >
       <a href="/projects" class="flex h-full items-center">
@@ -52,7 +48,7 @@
     <!-- button1 -->
     <div class="w-full max-lg:bg-black/40 max-lg:p-2">
       <a href="/projects" class="flex h-full items-center">
-        <span class="mr-2 ml-2">Projects</span>
+        <span class="text-sm mr-2 ml-2">Projects</span>
         <span class="text-gray-400">53</span>
       </a>
     </div>
@@ -65,7 +61,7 @@
 
     <div class="w-full max-lg:bg-black/40 max-lg:p-2">
       <a href="/languages" class="flex h-full items-center">
-        <span class=" mr-2 ml-2">Languages</span>
+        <span class="mr-2 ml-2">Languages</span>
         <span class="text-gray-400">4</span>
       </a>
     </div>

@@ -11,7 +11,7 @@ import ContactMe from "../components/contact_me.svelte";
         max-lg:h-32
         pl-2 pr-2
         lg:p-2
-        font-sans text-white
+        text-white
         lg:col-span-1
         min-w-fit
   "
@@ -24,14 +24,14 @@ import ContactMe from "../components/contact_me.svelte";
       class="flex h-fit max-lg:h-full items-center gap-2 text-4xl
             font-extralight tracking-tight p-1 pr-4 pl-4"
     >
-      <span class="font-mono text-3xl"><a href="/age">Age</a></span>
-      <span
-        class="flex h-9 w-9 items-center justify-center
+      <span class="font-light text-2xl"><a href="/age">Age</a></span>
+      <div
+        class="flex h-8 w-8 text-center items-center justify-center
             rounded-full border-[2px] border-sky-500
-            font-mono text-lg"
+            font-light text-sm"
       >
-        19
-      </span>
+        <span>19</span>
+      </div>
     </div>
     <div
       class="flex h-fit items-center gap-3 rounded-sm
