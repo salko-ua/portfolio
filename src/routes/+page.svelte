@@ -1,7 +1,7 @@
 <script>
-  import Header from '../components/header.svelte';
-import Stats from '../components/stats.svelte';
-import SideMenu from '../components/side_menu.svelte';
+  import Header from "../components/header.svelte";
+import Stats from "../components/stats.svelte";
+import SideMenu from "../components/side_menu.svelte";
 </script>
 
 <div

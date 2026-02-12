@@ -1,7 +1,7 @@
 <script>
-  import { asset } from '$app/paths';
+  import { asset } from "$app/paths";
 
-import ContactMe from '../components/contact_me.svelte';
+import ContactMe from "../components/contact_me.svelte";
 </script>
 
 <div
@@ -37,7 +37,7 @@ import ContactMe from '../components/contact_me.svelte';
       class="flex h-fit items-center gap-3 rounded-sm
             p-1 pr-4 pl-4 lg:bg-black/40 lg:w-full"
     >
-      <img alt="100+" src={asset('/100+.png')} class="h-[56px]" />
+      <img alt="100+" src={asset("/100+.png")} class="h-[56px]" />
       <div class="flex flex-col">
         <span class="text-sm leading-tight font-light"
           ><a href="/projects">Projects</a></span

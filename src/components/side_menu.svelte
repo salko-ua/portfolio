@@ -1,5 +1,5 @@
 <script>
-  import { asset } from '$app/paths';
+  import { asset } from "$app/paths";
 </script>
 
 <div

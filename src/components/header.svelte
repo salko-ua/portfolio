@@ -1,5 +1,5 @@
 <script>
-  import { asset } from '$app/paths';
+  import { asset } from "$app/paths";
 </script>
 
 <div
@@ -24,7 +24,7 @@
       mr-4
     "
   >
-    <img alt="portrayal" src={asset('/pfp.jpg')} class="size-full" />
+    <img alt="portrayal" src={asset("/pfp.jpg")} class="size-full" />
   </div>
   <!-- name -->
   <div class="flex flex-col">
