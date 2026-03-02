@@ -27,13 +27,15 @@
     <img alt="portrayal" src={asset("/pfp.jpg")} class="size-full" />
   </div>
   <!-- name -->
-  <div class="flex flex-col">
-    <div class="text-white text-3xl">SALO</div>
-    <div class="text-gray-400 text-lg mb-6">Volodymyr, Volyn', Ukraine 🇺🇦</div>
-    <div class="text-gray-400 text-lg">
+  <div class="flex flex-col pl-4 pt-2">
+    <div class="text-white font-light text-2xl mb-2">SALO</div>
+    <div class="text-gray-300 text-xs mb-4 ml-2">
+      🇺🇦 Volodymyr, Volyn', Ukraine
+    </div>
+    <div class="text-gray-300 text-xs">
       Software Developer, Automation, Artist
     </div>
-    <div class="text-gray-100">
+    <div class="text-gray-100 text-xs">
       <a href="https://github.com/salko-ua/">GitHub link</a>
     </div>
   </div>
