@@ -32,11 +32,12 @@
     <div class="text-gray-300 text-xs mb-4 ml-2">
       🇺🇦 Volodymyr, Volyn', Ukraine
     </div>
-    <div class="text-gray-300 text-xs">
-      Software Developer, Automation, Artist
-    </div>
+    <div class="text-gray-300 text-xs">Software/Full Stack Developer</div>
     <div class="text-gray-100 text-xs">
       <a href="https://github.com/salko-ua/">GitHub link</a>
+    </div>
+    <div class="text-gray-100 text-xs">
+      <a href="https://matias.me/nsfw/">https://matias.me/nsfw/</a>
     </div>
   </div>
 </div>
