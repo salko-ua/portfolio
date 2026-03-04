@@ -38,7 +38,7 @@
     </div>
     <div
       class="flex h-fit items-center gap-3 rounded-sm
-            p-1 pr-4 pl-4 lg:bg-black/40 lg:w-full"
+            p-1 pr-4 pl-4 lg:bg-black/40 lg:backdrop-blur-sm lg:w-full"
     >
       <img alt="100+" src={asset("/100+.png")} class="h-[56px]" />
       <div class="flex flex-col">

@@ -1,8 +1,10 @@
 <div
   class="
+    min-h-10
     h-fit
     w-full
     lg:bg-black/40
+    lg:backdrop-blur-sm
     col-span-1
     max-lg:order-1
   "
@@ -24,12 +26,15 @@
       font-normal
       text-white/95
       max-lg:justify-items-center
+      lg:space-y-2
     "
   >
     <div
       class="
+        mt-0
         w-full
         max-lg:bg-black/40
+        max-lg:backdrop-blur-sm
         max-lg:p-2
         text-cyan-400
         font-light
@@ -40,38 +45,38 @@
         text-lg
       "
     >
-      <a href="/projects" class="flex h-full items-center">
+      <a href="/projects" class=" flex h-full items-center">
         <span class="mr-2 ml-2 text-2xl">Currently Hired</span>
       </a>
     </div>
 
     <!-- button1 -->
-    <div class="w-full max-lg:bg-black/100 max-lg:p-2">
+    <div class="w-full max-lg:bg-black/50 max-lg:backdrop-blur-sm max-lg:p-2">
       <a href="/projects" class="flex h-full items-center">
         <span class="mr-2 ml-2">Projects</span>
         <span class="text-gray-400">53</span>
       </a>
     </div>
-    <div class="w-full max-lg:bg-black/40 max-lg:p-2">
+    <div class="w-full max-lg:bg-black/50 max-lg:backdrop-blur-sm max-lg:p-2">
       <a href="/artwork" class="flex h-full items-center">
         <span class="mr-2 ml-2">Artwork</span>
         <span class="text-gray-400">4</span>
       </a>
     </div>
 
-    <div class="w-full max-lg:bg-black/40 max-lg:p-2">
+    <div class="w-full max-lg:bg-black/40 max-lg:backdrop-blur-sm max-lg:p-2">
       <a href="/languages" class="flex h-full items-center">
         <span class="mr-2 ml-2">Languages</span>
         <span class="text-gray-400">4</span>
       </a>
     </div>
-    <div class="w-full max-lg:bg-black/40 max-lg:p-2">
+    <div class="w-full max-lg:bg-black/40 max-lg:backdrop-blur-sm max-lg:p-2">
       <a href="/template" class="flex h-full items-center">
         <span class="mr-2 ml-2">Reviews</span>
         <span class="text-gray-400">2</span>
       </a>
     </div>
-    <div class="w-full max-lg:bg-black/40 max-lg:p-2">
+    <div class="w-full max-lg:bg-black/40 max-lg:backdrop-blur-sm max-lg:p-2">
       <a
         href="https://myanimelist.net/profile/throughere"
         class="flex h-full items-center"
@@ -80,7 +85,7 @@
         <span class="text-gray-400"></span>
       </a>
     </div>
-    <div class="w-full max-lg:bg-black/40 max-lg:p-2">
+    <div class="w-full max-lg:bg-black/40 max-lg:backdrop-blur-sm max-lg:p-2">
       <a
         href="https://discord.com/users/userid"
         class="flex h-full items-center"
@@ -89,13 +94,13 @@
         <span class="text-gray-400"></span>
       </a>
     </div>
-    <div class="w-full max-lg:bg-black/40 max-lg:p-2">
+    <div class="w-full max-lg:bg-black/40 max-lg:backdrop-blur-sm max-lg:p-2">
       <a href="https://t.me/throughere" class="flex h-full items-center">
         <span class="mr-2 ml-2">Telegram</span>
         <span class="text-gray-400"></span>
       </a>
     </div>
-    <div class="w-full max-lg:bg-black/40 max-lg:p-2">
+    <div class="w-full max-lg:bg-black/40 max-lg:backdrop-blur-sm max-lg:p-2">
       <a
         href="https://steamcommunity.com/id/throughere/"
         class="flex h-full items-center"

@@ -4,7 +4,7 @@
   import SideMenu from "../components/side_menu.svelte";
   export let userVideo = true;
   export let src = "/background.jpg";
-  export let videoSrc = "/background1.mp4";
+  export let videoSrc = "/background.mp4";
 </script>
 
 <div
@@ -33,11 +33,13 @@
     <Header />
     <Stats />
     <div
-      class="h-fit text-white text-center min-h-100 w-full bg-black/40 col-span-1 lg:col-span-2 max-lg:order-2"
+      class=" p-3 h-fit text-white min-h-10 w-full bg-black/40 backdrop-blur-sm col-span-1 lg:col-span-2 max-lg:order-2"
     >
-      <div class="text-4xl text-purple-500 p-5 font-bold tracking-[.2em]">
-        WELCOME
-      </div>
+      <img
+        class=""
+        src="https://raw.githubusercontent.com/salko-ua/salko-ua/main/dark_mode.svg"
+        alt="Dark Mode Toggle"
+      />
     </div>
     <SideMenu />
   </div>
