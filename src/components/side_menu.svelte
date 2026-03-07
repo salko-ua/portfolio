@@ -6,6 +6,7 @@
     lg:bg-black/40
     lg:backdrop-blur-sm
     col-span-1
+    lg:row-span-999999
     max-lg:order-1
   "
 >
@@ -36,8 +37,8 @@
         max-lg:bg-black/40
         max-lg:backdrop-blur-sm
         max-lg:p-2
-        text-cyan-400
-        font-light
+        text-cyan-300
+        font-extralight
         col-span-2
         xs:col-span-3
         sm:col-span-4
@@ -45,20 +46,26 @@
         text-lg
       "
     >
-      <a href="/projects" class=" flex h-full items-center">
-        <span class="mr-2 ml-2 text-2xl">Currently Hired</span>
+      <a href="/" class="flex h-full items-center">
+        <span class="mr-2 ml-2 text-lg">Currently Hired</span>
       </a>
     </div>
 
     <!-- button1 -->
     <div class="w-full max-lg:bg-black/50 max-lg:backdrop-blur-sm max-lg:p-2">
-      <a href="/projects" class="flex h-full items-center">
+      <a
+        href="https://github.com/salko-ua?tab=repositories"
+        class="flex h-full items-center"
+      >
         <span class="mr-2 ml-2">Projects</span>
         <span class="text-gray-400">53</span>
       </a>
     </div>
     <div class="w-full max-lg:bg-black/50 max-lg:backdrop-blur-sm max-lg:p-2">
-      <a href="/artwork" class="flex h-full items-center">
+      <a
+        href="https://github.com/salko-ua/art-work"
+        class="flex h-full items-center"
+      >
         <span class="mr-2 ml-2">Artwork</span>
         <span class="text-gray-400">4</span>
       </a>

@@ -16,7 +16,7 @@
       muted
       loop
       playsinline
-      class="absolute z-0 left-1/2 -translate-x-1/2 w-[1920px] h-[1080px] object-top max-2xl:object-cover"
+      class="absolute z-0 left-1/2 -translate-x-1/2 w-[1920px] h-[1080px] object-top object-cover"
     >
       <source src={videoSrc} type="video/mp4" />
     </video>
@@ -33,16 +33,49 @@
     <Header />
     <Stats />
     <div
-      class=" p-3 h-fit text-white min-h-10 w-full bg-black/40 backdrop-blur-sm col-span-1 lg:col-span-2 max-lg:order-2"
+      class="p-3 h-fit text-sm font-light text-white min-h-10 w-full bg-black/40 backdrop-blur-sm col-span-1 lg:col-span-2 max-lg:order-2"
     >
-      <a href="/github_svg">
+      GitHub Showcase
+      <a href="/svg">
         <img
-          class=""
           src="https://raw.githubusercontent.com/salko-ua/salko-ua/main/dark_mode.svg"
           alt="Dark Mode Toggle"
         />
       </a>
     </div>
     <SideMenu />
+    <div
+      class="p-3 h-fit text-sm font-light text-white min-h-10 w-full bg-black/40 backdrop-blur-sm col-span-1 lg:col-span-2 max-lg:order-2"
+    >
+      GitHub Showcase
+      <a href="/svg">
+        <img
+          src="https://raw.githubusercontent.com/salko-ua/salko-ua/main/dark_mode.svg"
+          alt="Dark Mode Toggle"
+        />
+      </a>
+    </div>
+    <div
+      class="p-3 h-fit text-sm font-light text-white min-h-10 w-full bg-black/40 backdrop-blur-sm col-span-1 lg:col-span-2 max-lg:order-2"
+    >
+      GitHub Showcase
+      <a href="/svg">
+        <img
+          src="https://raw.githubusercontent.com/salko-ua/salko-ua/main/dark_mode.svg"
+          alt="Dark Mode Toggle"
+        />
+      </a>
+    </div>
+    <div
+      class="p-3 h-fit text-sm font-light text-white min-h-10 w-full bg-black/40 backdrop-blur-sm col-span-1 lg:col-span-2 max-lg:order-2"
+    >
+      GitHub Showcase
+      <a href="/svg">
+        <img
+          src="https://raw.githubusercontent.com/salko-ua/salko-ua/main/dark_mode.svg"
+          alt="Dark Mode Toggle"
+        />
+      </a>
+    </div>
   </div>
 </div>
