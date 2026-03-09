@@ -1,3 +1,7 @@
+<script>
+  import { portfolioData } from "$lib/data";
+</script>
+
 <div
   class="
     min-h-10
@@ -53,65 +57,50 @@
 
     <!-- button1 -->
     <div class="w-full max-lg:bg-black/50 max-lg:backdrop-blur-sm max-lg:p-2">
-      <a
-        href="https://github.com/salko-ua?tab=repositories"
-        class="flex h-full items-center"
-      >
+      <a href={portfolioData.sideMenu.projects.link} class="flex h-full items-center">
         <span class="mr-2 ml-2">Projects</span>
-        <span class="text-gray-400">53</span>
+        <span class="text-gray-400">{portfolioData.sideMenu.projects.count}</span>
       </a>
     </div>
     <div class="w-full max-lg:bg-black/50 max-lg:backdrop-blur-sm max-lg:p-2">
-      <a
-        href="https://github.com/salko-ua/art-work"
-        class="flex h-full items-center"
-      >
+      <a href={portfolioData.sideMenu.artwork.link} class="flex h-full items-center">
         <span class="mr-2 ml-2">Artwork</span>
-        <span class="text-gray-400">4</span>
+        <span class="text-gray-400">{portfolioData.sideMenu.artwork.count}</span>
       </a>
     </div>
 
     <div class="w-full max-lg:bg-black/40 max-lg:backdrop-blur-sm max-lg:p-2">
-      <a href="/languages" class="flex h-full items-center">
+      <a href={portfolioData.sideMenu.languages.link} class="flex h-full items-center">
         <span class="mr-2 ml-2">Languages</span>
-        <span class="text-gray-400">4</span>
+        <span class="text-gray-400">{portfolioData.sideMenu.languages.count}</span>
       </a>
     </div>
     <div class="w-full max-lg:bg-black/40 max-lg:backdrop-blur-sm max-lg:p-2">
-      <a href="/template" class="flex h-full items-center">
+      <a href={portfolioData.sideMenu.reviews.link} class="flex h-full items-center">
         <span class="mr-2 ml-2">Reviews</span>
-        <span class="text-gray-400">2</span>
+        <span class="text-gray-400">{portfolioData.sideMenu.reviews.count}</span>
       </a>
     </div>
     <div class="w-full max-lg:bg-black/40 max-lg:backdrop-blur-sm max-lg:p-2">
-      <a
-        href="https://myanimelist.net/profile/throughere"
-        class="flex h-full items-center"
-      >
+      <a href={portfolioData.sideMenu.anime.link} class="flex h-full items-center">
         <span class="mr-2 ml-2">Anime</span>
         <span class="text-gray-400"></span>
       </a>
     </div>
     <div class="w-full max-lg:bg-black/40 max-lg:backdrop-blur-sm max-lg:p-2">
-      <a
-        href="https://discord.com/users/userid"
-        class="flex h-full items-center"
-      >
+      <a href={portfolioData.sideMenu.discord.link} class="flex h-full items-center">
         <span class="mr-2 ml-2">Discord</span>
         <span class="text-gray-400"></span>
       </a>
     </div>
     <div class="w-full max-lg:bg-black/40 max-lg:backdrop-blur-sm max-lg:p-2">
-      <a href="https://t.me/throughere" class="flex h-full items-center">
+      <a href={portfolioData.sideMenu.telegram.link} class="flex h-full items-center">
         <span class="mr-2 ml-2">Telegram</span>
         <span class="text-gray-400"></span>
       </a>
     </div>
     <div class="w-full max-lg:bg-black/40 max-lg:backdrop-blur-sm max-lg:p-2">
-      <a
-        href="https://steamcommunity.com/id/throughere/"
-        class="flex h-full items-center"
-      >
+      <a href={portfolioData.sideMenu.steam.link} class="flex h-full items-center">
         <span class="mr-2 ml-2">Steam</span>
         <span class="text-gray-400"></span>
       </a>

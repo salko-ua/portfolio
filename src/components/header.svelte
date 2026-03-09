@@ -1,5 +1,6 @@
 <script>
   import { asset } from "$app/paths";
+  import { portfolioData } from "$lib/data";
 </script>
 
 <div
@@ -30,14 +31,11 @@
   <div class="flex flex-col lg:pl-4 lg:pt-2">
     <div class="text-white font-light text-2xl mb-2">SALO</div>
     <div class="text-gray-300 text-xs mb-4 ml-2">
-      🇺🇦 Volodymyr, Volyn', Ukraine
+      {portfolioData.header.location}
     </div>
-    <div class="text-gray-300 text-xs">Software/Full Stack Developer</div>
+    <div class="text-gray-300 text-xs">{portfolioData.header.profession}</div>
     <div class="text-gray-100 text-xs">
-      <a href="https://github.com/salko-ua/">GitHub link</a>
-    </div>
-    <div class="text-gray-100 text-xs">
-      <a href="https://matias.me/nsfw/">https://matias.me/nsfw/</a>
+      <a href={portfolioData.header.githubLink}>GitHub link</a>
     </div>
   </div>
 </div>

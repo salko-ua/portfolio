@@ -1,10 +1,11 @@
 <script>
+  import GitHubShowcase from "../components/GitHubShowcase.svelte";
   import Header from "../components/header.svelte";
   import Stats from "../components/stats.svelte";
   import SideMenu from "../components/side_menu.svelte";
   export let userVideo = true;
   export let src = "/background.jpg";
-  export let videoSrc = "/background.mp4";
+  export let videoSrc = "/background1.mp4";
 </script>
 
 <div
@@ -32,50 +33,11 @@
   >
     <Header />
     <Stats />
-    <div
-      class="p-3 h-fit text-sm font-light text-white min-h-10 w-full bg-black/40 backdrop-blur-sm col-span-1 lg:col-span-2 max-lg:order-2"
-    >
-      GitHub Showcase
-      <a href="/svg">
-        <img
-          src="https://raw.githubusercontent.com/salko-ua/salko-ua/main/dark_mode.svg"
-          alt="Dark Mode Toggle"
-        />
-      </a>
-    </div>
+    <GitHubShowcase
+      title="GitHub Showcase"
+      link="/svg"
+      altText="Dark Mode Toggle"
+    />
     <SideMenu />
-    <div
-      class="p-3 h-fit text-sm font-light text-white min-h-10 w-full bg-black/40 backdrop-blur-sm col-span-1 lg:col-span-2 max-lg:order-2"
-    >
-      GitHub Showcase
-      <a href="/svg">
-        <img
-          src="https://raw.githubusercontent.com/salko-ua/salko-ua/main/dark_mode.svg"
-          alt="Dark Mode Toggle"
-        />
-      </a>
-    </div>
-    <div
-      class="p-3 h-fit text-sm font-light text-white min-h-10 w-full bg-black/40 backdrop-blur-sm col-span-1 lg:col-span-2 max-lg:order-2"
-    >
-      GitHub Showcase
-      <a href="/svg">
-        <img
-          src="https://raw.githubusercontent.com/salko-ua/salko-ua/main/dark_mode.svg"
-          alt="Dark Mode Toggle"
-        />
-      </a>
-    </div>
-    <div
-      class="p-3 h-fit text-sm font-light text-white min-h-10 w-full bg-black/40 backdrop-blur-sm col-span-1 lg:col-span-2 max-lg:order-2"
-    >
-      GitHub Showcase
-      <a href="/svg">
-        <img
-          src="https://raw.githubusercontent.com/salko-ua/salko-ua/main/dark_mode.svg"
-          alt="Dark Mode Toggle"
-        />
-      </a>
-    </div>
   </div>
 </div>

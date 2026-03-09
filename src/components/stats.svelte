@@ -1,5 +1,6 @@
 <script>
   import { asset } from "$app/paths";
+  import { portfolioData } from "$lib/data";
 
   import ContactMe from "../components/contact_me.svelte";
 </script>
@@ -24,7 +25,7 @@
       class="flex h-fit max-lg:h-full items-center gap-2 text-4xl
             font-extralight tracking-tight p-1 pr-4 pl-4"
     >
-      <span class="font-light text-2xl"><a href="/age">Age</a></span>
+      <span class="font-light text-2xl"><a href={portfolioData.stats.age.link}>Age</a></span>
       <div
         class="relative flex h-9 w-9
             rounded-full border-[2px] border-purple-500
@@ -32,7 +33,7 @@
       >
         <span
           class="absolute top-[50%] left-[49%] -translate-x-1/2 -translate-y-1/2"
-          >19</span
+          >{portfolioData.stats.age.value}</span
         >
       </div>
     </div>
@@ -43,9 +44,9 @@
       <img alt="100+" src={asset("/100+.png")} class="h-[56px]" />
       <div class="flex flex-col">
         <span class="text-sm leading-tight font-light"
-          ><a href="/projects">Projects</a></span
+          ><a href={portfolioData.stats.projectsXP.link}>Projects</a></span
         >
-        <span class="text-xs text-gray-400">446 XP</span>
+        <span class="text-xs text-gray-400">{portfolioData.stats.projectsXP.value} XP</span>
       </div>
     </div>
   </div>
